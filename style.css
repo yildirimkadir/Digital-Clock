@@ -38,11 +38,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: normal;
 }
 .clock span:not(:last-child) {
     position: relative;
     margin: 0 6px;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
     letter-spacing: 3px;
 }
