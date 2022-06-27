@@ -23,7 +23,8 @@ setInterval(showTime, 1000);
             document.getElementById("hour").innerHTML = hour;
             document.getElementById("minutes").innerHTML = min;
             document.getElementById("seconds").innerHTML = sec;
-        }
+        };
+
         showTime();
 
         function getDate() {
@@ -33,6 +34,6 @@ setInterval(showTime, 1000);
             datum.innerText = today;
        };
 
-getDate()
+        getDate();
  
 
